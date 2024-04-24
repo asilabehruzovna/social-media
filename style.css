@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     text-decoration: none;
+    list-style: none;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    background-image: url(./images/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    position: fixed;
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 40px;
+    height: 60px;
+}
+.logo{
+    font-size: 30px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+.nav-item ul li a{
+    font-size: 18px;
+    color: aliceblue;
+    transition: 0.4s;
+}
+.nav-item ul li a:hover{
+    color: orange;
+}
+.header-text{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.text-items{
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: aliceblue;
+}
+.text-items h1{
+    font-size: 30px;
+}
+.text-items p{
+    font-size: 16px;
+}
+.text-items button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid aliceblue;
+    transition: 0.3s;
+}
+.text-items button:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 0px;
+}
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.works .workers{
+    color: black;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+}
+.workers img{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+.workers h1{
+    margin: 20px 0px;
+}
+.a-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 0px;
+}
+.about{
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about .a-img img {
+    width: 100%;
+    max-width: 800px}
+.a-text h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 20px 0px;
+}
+.a-img{
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 60px;
+}
+.about-description {
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0;
+    line-height: 25px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    gap: 25px;
+    padding: 0px 10px;
+}
+form input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0px 10px;
+    height: 50px;
+    background-color: rgb(235, 235, 235);
+}
+form textarea {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 10px;
+    background-color: rgb(235, 235, 235);
+    height: 100px;
+}
+.btn{
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(63, 60, 60);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(168, 168, 168);
+    color: whitesmoke;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
